@@ -17,7 +17,7 @@ In this work, we argue that a Mutual Nearest Neighbor (MNN) relation should be e
 
 Experimental results on few-shot learning datasets with Conv4/ResNet-12/WRN-28-10 backbones. We report average results with 6,000 randomly sampled episodes for both 1-shot and 5-shot evaluation.
 
-**MiniImageNet Dataset**
+**MiniImageNet**
 
 |          | 5-way 1-shot (**Conv4**) | 5-way 5-shot (**Conv4**) |5-way 1-shot (**ResNet12**) | 5-way 5-shot (**ResNet12**) |
 |:----------------------:|:------------:|:------------:|:------------:|:------------:|
@@ -29,3 +29,15 @@ Experimental results on few-shot learning datasets with Conv4/ResNet-12/WRN-28-1
 |          **DN4**       |     **54.33**|     **71.99**|  **64.84**|     **77.74**|
 |          **MN4**       |     **55.57**|     **73.64**|  **65.53**|     **78.23**|
 |          **DMN4**      |     **55.77**|     **74.22**|  **65.71**|     **80.16**|
+
+|          | 5-way 1-shot (WRN-28-10) | 5-way 5-shot (WRN-28-10) |
+|:--------:|:------------------------:|:------------------------:|
+|    PPA   |           59.60          |           73.74          |
+| wDAE-GNN |           61.07          |           76.75          |
+|    LEO   |           61.76          |           77.59          |
+|   FEAT   |           65.10          |           81.11          |
+|  **DN4** |         **63.68**        |         **80.32**        |
+|  **MN4** |         **66.43**        |         **82.84**        |
+| **DMN4** |         **66.29**        |         **82.80**        |
+
+**TieredImageNet**
