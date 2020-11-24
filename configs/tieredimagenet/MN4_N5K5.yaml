@@ -1,0 +1,5 @@
+# Default
+test:
+    batch_size: 1
+model:
+    query: "MN4"

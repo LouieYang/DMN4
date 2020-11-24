@@ -1,0 +1,17 @@
+k_shot: 1
+train:
+    query_per_class_per_episode: 3
+    batch_size: 1
+    episode_per_epoch: 800
+    epochs: 80
+    lr_decay_epoch: 20
+    lr_decay: 0.5
+    learning_rate: 0.001
+    optim: "SGD"
+    fix_bn: True
+model:
+    query: "DN4"
+    encoder: "WRN28"
+test:
+    query_per_class_per_episode: 5
+    batch_size: 1

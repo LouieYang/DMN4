@@ -1,0 +1,9 @@
+__pycache__/
+data/miniImagenet
+data/CUB_FSL
+demo/.ipynb_checkpoints
+demo/*.pkl
+demo/*.ipynb
+demo/**/
+checkpoint/**/
+demo/*

@@ -1,0 +1,12 @@
+k_shot: 1
+train:
+    query_per_class_per_episode: 15
+    epochs: 30
+    batch_size: 1
+    episode_per_epoch: 5000
+model:
+    query: "MN4"
+semi:
+    with_distractors: 1
+test:
+    batch_size: 1

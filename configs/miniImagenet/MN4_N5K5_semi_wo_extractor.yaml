@@ -1,0 +1,12 @@
+model:
+    query: "MN4"
+train:
+    epochs: 30
+    batch_size: 2 
+    episode_per_epoch: 10000
+model:
+    query: "MN4"
+semi:
+    with_distractors: 1
+test:
+    batch_size: 1

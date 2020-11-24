@@ -1,0 +1,5 @@
+k_shot: 1
+train:
+    query_per_class_per_episode: 15
+model:
+    query: "MN4"
