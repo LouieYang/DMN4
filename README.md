@@ -98,8 +98,17 @@ and run **evaluation** by
 
     $ python experiments/run_evaluator.py --cfg ./configs/*/*.yaml -c ./checkpoint/*/*.pth --device 0
 
-We also provide configs for distributed training (used for WRN-28-10) and semi-supervised few-shot learning tasks.
+We also provide configs for distributed training (4GPU for WRN-28-10)
 
+    $ python -m torch.distributed.launch --nproc_per_node=4 ./experiments/run_distributed_trainer \
+    --cfg ./configs/*/*.yaml -w 4
+
+and semi-supervised few-shot learning tasks (with trial `t=1`).
+
+    $ python experiments/run_semi_trainer.py \
+    --cfg ./configs/miniImagenet/MN4_N5K1_semi_with_extractor.yaml \
+    --device 0 \
+    -t 1
 
 ## Acknowledgment
 The reimplementation results of DeepEMD and DSN reported in our project are from the following repos.
