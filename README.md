@@ -2,7 +2,12 @@
 
 The code repository for "DMN4: Few-shot Learning via Discriminative Mutual Nearest Neighbor Neural Network" in pytorch. If you use any content of this repo for your work, please cite the following bib entry:
 
-    @inproceedings{liu2021fewshot}
+    @article{liu2021dmn4,
+        title={DMN4: Few-shot Learning via Discriminative Mutual Nearest Neighbor Neural Network},
+        author={Liu, Yang and Zheng, Tu and Song, Jie and Cai, Deng and He, Xiaofei},
+        journal={arXiv preprint arXiv:2103.08160},
+        year={2021}
+    }
 
 
 If you have any question regarding the paper, please send a email to **lyng_95@zju.edu.cn**
