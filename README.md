@@ -116,6 +116,8 @@ and **semi-supervised few-shot learning** tasks (with trial `t=1`).
     $ python experiments/run_semi_evaluator.py \
     --cfg ./configs/miniImagenet/MN4_N5K1_semi_with_extractor.yaml -c ./checkpoints/*/*.pth --device 0
 
+Feel free to try trained/pre-trained [checkpoints](https://drive.google.com/drive/folders/1EWvj8hGfnS7vhKsCKkwaKt0mAw7pP-pN?usp=sharing).
+
 ## Acknowledgment
 The reimplementation results of DeepEMD and DSN reported in our project are from the following repos.
 
