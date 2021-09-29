@@ -1,5 +1,7 @@
 # DMN4: Few-shot Learning via Discriminative Mutual Nearest Neighbor Neural Network
 
+**IMPORTANT: This repository is deprecated and won't update.** Please move to [MCL](https://github.com/LouieYang/MCL) for the updated results.
+
 The code repository for "DMN4: Few-shot Learning via Discriminative Mutual Nearest Neighbor Neural Network" in pytorch. If you use any content of this repo for your work, please cite the following bib entry:
 
     @article{liu2021dmn4,
@@ -12,7 +14,7 @@ The code repository for "DMN4: Few-shot Learning via Discriminative Mutual Neare
 
 If you have any question regarding the paper, please send a email to **lyng_95@zju.edu.cn**
 
-## Abstract
+<!-- ## Abstract
 
 In this work, we argue that a Mutual Nearest Neighbor (MNN) relation should be established to explicitly select the query descriptors that are most relevant to each task and discard the duplicate ones in FSL. Specifically, we propose **Discriminative Mutual Nearest Neighbor Neural Network (DMN4)** for FSL. Extensive experiments demonstrate that our method not only qualitatively selects task-relevant descriptors but also quantitatively outperforms the existing state-of-the-arts by a large margin of 6.5~9.7% on finegrained CUB, a considerable margin of ~3% on both supervised and semi-supervised miniImagenet, and ~1.4% on challenging tieredimagenet.
 
@@ -127,4 +129,4 @@ The reimplementation results of DeepEMD and DSN reported in our project are from
 
 Also, many appreciate to the excellent work provide by [@WenbinLee](https://github.com/WenbinLee) for inspiration.
 
-- [DN4](https://github.com/WenbinLee/DN4)
+- [DN4](https://github.com/WenbinLee/DN4) -->
